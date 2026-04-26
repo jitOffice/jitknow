@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://know.jitword.com/public/uploads/know-logo_19d18ea166a.png" width="80" alt="JitKnow Logo" style="border-radius:16px"/>
+<img src="https://know.jitword.com/public/uploads/know-logo_19d18ea166a.png" width="120" alt="JitKnow Logo" style="border-radius:16px"/>
 
 # JitKnow API 开放平台
 
@@ -175,27 +175,7 @@ curl -X POST https://know.jitword.com/open/v1/chat \
 
 **效果预览：**
 
-```
-┌─────────────────────────────┐
-│  你的网页内容                 │
-│                              │
-│                              │
-│                    ╭────────╮│
-│                    │🤖 智能  ││ ← 悬浮按钮
-│                    │  助手  ││
-│                    ╰────────╯│
-└─────────────────────────────┘
 
-点击后展开对话面板：
-┌─────────────────────────────┐
-│ 🤖 智能助手              [×]│
-├─────────────────────────────┤
-│ 你好！我是产品智能助手，      │
-│ 有什么可以帮你的？           │
-│                              │
-│ ▌ 用户输入框...         [发送]│
-└─────────────────────────────┘
-```
 
 ### iframe 嵌入
 
