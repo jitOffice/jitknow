@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://know.jitword.com/public/uploads/know-logo_19d18ea166a.png" width="80" height="80" alt="JitKnow Logo" style="border-radius:16px"/>
+<img src="https://know.jitword.com/public/uploads/know-logo_19d18ea166a.png" width="80" alt="JitKnow Logo" style="border-radius:16px"/>
 
 # JitKnow API 开放平台
 
