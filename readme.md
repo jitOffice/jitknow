@@ -4,6 +4,12 @@
 
 # JitKnow API 开放平台
 
+**🌐 语言版本 · Language · 言語**
+
+[![中文](https://img.shields.io/badge/中文-当前-165DFF?style=flat-square)](./JITKNOW_OPENAPI_README.md)
+[![English](https://img.shields.io/badge/English-查看-6B7280?style=flat-square)](./JITKNOW_OPENAPI_README_EN.md)
+[![日本語](https://img.shields.io/badge/日本語-查看-6B7280?style=flat-square)](./JITKNOW_OPENAPI_README_JA.md)
+
 **企业级 AI 知识库 · 开发者接入文档**
 
 [![API Version](https://img.shields.io/badge/API-v1-165DFF?style=flat-square&logo=swagger)](https://know.jitword.com)
@@ -67,13 +73,13 @@ JitKnow 是企业级 **AI 智能知识库平台**，支持将 PDF、Word、Excel
 ┌─────────────────────────────────────────────────────────────┐
 │                    JitKnow 开放平台                          │
 ├─────────────────┬─────────────────┬─────────────────────────┤
-│  📦 嵌入式 Widget │  📡 Chat API    │  🔐 安全与管控           │
+│  📦 嵌入式 Widget │  📡 Chat API    │  🔐 安全与管控            │
 ├─────────────────┼─────────────────┼─────────────────────────┤
 │ 悬浮气泡 Widget  │ GET  /info      │ API Key 权限隔离         │
-│ iframe 嵌入     │ POST /chat (SSE)│ IP 白名单访问控制        │
-│ 深色/浅色主题   │ 多轮对话上下文  │ RPM 速率限流             │
-│ 自定义颜色位置  │ Citations 溯源  │ 日调用配额               │
-│ 1行代码接入     │ 流式实时输出    │ Key 过期时间管理         │
+│ iframe 嵌入     │ POST /chat (SSE)│ IP 白名单访问控制         │
+│ 深色/浅色主题   │ 多轮对话上下文  │ RPM 速率限流                 │
+│ 自定义颜色位置  │ Citations 溯源  │ 日调用配额                  │
+│ 1行代码接入     │ 流式实时输出    │ Key 过期时间管理             │
 └─────────────────┴─────────────────┴─────────────────────────┘
 ```
 
@@ -175,7 +181,7 @@ curl -X POST https://know.jitword.com/open/v1/chat \
 
 **效果预览：**
 
-
+<img src="./widget.png" />
 
 ### iframe 嵌入
 
@@ -806,7 +812,7 @@ data: {"conversation_id":"conv_a1b2c3d4"}
 
 **[注册账号，立即获取 API Key →](https://know.jitword.com/know/login)**
 
-© 2026 JitKnow · 重庆橙讯智科科技有限公司 · [隐私政策](https://jitword.com) · [服务条款](https://jitword.com)
+© 2026 JitKnow
 
 *用一行代码，给你的产品装上 AI 知识大脑。*
 
